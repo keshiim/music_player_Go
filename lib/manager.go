@@ -1,7 +1,7 @@
 package lib
 
 import (
-	"app/music/model"
+	"github.com/keshiim/music_player_GO/model"
 	"errors"
 )
 
