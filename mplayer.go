@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"app/music/lib"   //music lib
-	"app/music/model" //music model
-	"app/music/mp"    //music player
+	"github.com/keshiim/music_player_GO/lib"   //music lib
+	"github.com/keshiim/music_player_GO/model" //music model
+	"github.com/keshiim/music_player_GO/mp"    //music player
 )
 
 var musicMananger *lib.MusicManager
@@ -64,7 +64,7 @@ func handlePlayCommand(tokens []string) {
 
 func main() {
 	fmt.Println(`
-￼￼￼Enter following commands to control the player:
+Enter following commands to control the player:
 lib list -- View the existing music lib
 lib add <name><artist><source><type> -- Add a music to the music lib
 lib remove <name> -- Remove the specified music from the lib
