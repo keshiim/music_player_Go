@@ -70,7 +70,7 @@ lib add <name><artist><source><type> -- Add a music to the music lib
 lib remove <name> -- Remove the specified music from the lib
 play <name> -- Play the specified music
 `)
-	lib = library.NewMusicManager()
+	musicMananger = lib.NewMusicManager()
 	r := bufio.NewReader(os.Stdin)
 
 	for {
